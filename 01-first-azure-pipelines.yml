@@ -31,7 +31,7 @@ jobs:
   steps:
   - script: echo Job3!
     displayName: 'Run a one-line script' 
-- job: Job3
+- job: Job4
   dependsOn:
   - Job2
   - Job3

@@ -20,8 +20,8 @@ jobs:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     echo more information
-   displayName: 'Run a multi-line script'jobs:
+    displayName: 'Run a multi-line script'jobs:
 - job:Job2
   steps:
--  script: echo Job2!
+- script: echo Job2!
   displayName: 'Run a one-line script' 

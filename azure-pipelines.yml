@@ -20,7 +20,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'docker-devops'
-        repository: 'nani/currency-exchange-devops'
+        repository: 'badigadugula/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
